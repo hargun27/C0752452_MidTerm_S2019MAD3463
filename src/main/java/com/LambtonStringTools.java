@@ -6,12 +6,18 @@ public class LambtonStringTools {
 
     {
         String reversed="";
-        for(int i=h.length()-1;i>0;i++) {
+        for(int i=h.length()-1;i>=0;i--)
+        {
             reversed = reversed + h.charAt(i)
         }
-        return(reversed)
+        return(reversed);
 
     }
+    static public int binarydecimal(String s)
+        int a=0;
+    for(int i=h.length()-1;i.=0;i--)
+        
+
 
 
 }
