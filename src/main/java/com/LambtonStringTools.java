@@ -2,6 +2,7 @@ package com.lambton;
 
 public class LambtonStringTools {
     public String h;
+    int s;
     static public String reverse(String h)
 
     {
@@ -13,10 +14,22 @@ public class LambtonStringTools {
         return(reversed);
 
     }
-    static public int binarydecimal(String s)
+    static public int binarydecimal(int s)
         int a=0;
-    for(int i=h.length()-1;i.=0;i--)
-        
+int n=0;
+while(true)
+    {
+       if(s==0)
+       {
+           break;
+       }
+       else
+       {
+           int temp=s%10;
+       }
+    }
+
+
 
 
 
